@@ -1,0 +1,830 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="/images/ikea.svg">
+    <title>ikea</title>
+
+    <link rel="stylesheet" href="./lib/css/reset.css">
+    <link rel="stylesheet" href="./lib/css/common.css">
+    <link rel="stylesheet" href="./lib/css/fonts.css">
+
+    <link rel="stylesheet" href="./lib/css/swiper-bundle.min.css">
+
+    <link rel="stylesheet" href="./lib/css/aos.css">
+
+    <link rel="stylesheet" href="./css/layout.css">
+    <link rel="stylesheet" href="./css/style.css">
+
+    <script src="./lib/js/jquery-1.12.4.min.js"></script>
+    <script src="./lib/js/swiper-bundle.min.js"></script>
+    <script src="./lib/js/aos.js"></script>
+
+    <script src="./lib/js/lenis.min.js"></script>
+
+    <script src="./js/custom.js"></script>
+
+</head>
+
+<body>
+
+    <header id="header">
+        <div class="hd_top">
+            <div class="inner">
+                <div class="hd_wrapleft">
+                    <a href="">
+                        <img src="./images/icon_globe.svg" alt="">
+                        <span>KR</span>
+                        <span class="KR">한국어</span>
+                    </a>
+                </div>
+                <div class="hd_wrapcenter">
+                    <a href="">
+                        <img src="./images/icon_message-square.svg" alt="">
+                        <span>네이버페이 오픈 기념, 추가 적립 프로모션 중!(~2025.5.31)</span>
+                    </a>
+                </div>
+                <div class="hd_wrapcright">
+                    <a href="">
+                        <div><img src="./images/icon_truck.svg" alt="">
+                            <span>우편 번호 입력</span>
+                        </div>
+                        <div><img src="./images/icon_map-pin.svg" alt="">
+                            <span>매장 선택</span>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="hd_bottom">
+            <div class="inner">
+                <div class="sec_wrap">
+                    <h1 class="hd_logo">
+                        <a href="">
+                            <img src="./images/logo.svg" alt="">
+                        </a>
+                    </h1>
+                    <div class="hd_search">
+                        <div class="search_box">
+                            <form action="" method="" class="form">
+                                <input class="search_txt" type="text" placeholder="검색어를 입력해 주세요">
+                                <button class="search_btn" type="submit"><img src="./images/icon_search.svg"
+                                        alt=""></button>
+                            </form>
+                        </div>
+                    </div>
+
+                    <div class="hd_icon">
+
+                        <a href="" class="user">
+                            <div><img src="./images/icon_user.svg" alt="">
+                                <span>Hej! 로그인 하기</span>
+                            </div>
+                        </a>
+                        <a href="" class="heart">
+                            <div><img src="./images/icon_heart.svg" alt="">
+                            </div>
+                        </a>
+                        <a href="" class="bag">
+                            <div><img src="./images/icon_shopping-bag.svg" alt="">
+                            </div>
+                        </a>
+                        <a href="" class="mbtn">
+                            <div><img src="./images/icon_menu.svg" alt="">
+                            </div>
+                        </a>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <div class="hd_menu">
+            <figure>
+                <img src="./images/logo.svg" alt="">
+                <button><img class="xmbtn" src="./images/x.svg" alt=""></button>
+            </figure>
+
+
+            <nav class="gnb">
+                <ul>
+                    <li class="on">
+                        <button>
+                            <a href=""><img class="gnbimg" src="./images/icon_archive.svg" alt="">모든제품</a>
+                            <img src="./images/chevron-down.svg" alt="">
+                        </button>
+
+                        <div class="sub">
+                            <div class="sub_wrap new">
+                                <ul>
+                                    <li> <a href=""><img src="./images/m00.avif" alt="">
+                                            <p>신제품</p>
+                                        </a>
+                                    </li>
+                                    <li> <a href=""><img src="./images/m01.avif" alt="">
+                                            <p>침대/매트리스</p>
+                                        </a>
+                                    </li>
+                                    <li> <a href=""><img src="./images/m02.avif" alt="">
+                                            <p>소파 및 암체어</p>
+                                        </a>
+                                    </li>
+                                    <li> <a href=""><img src="./images/m03.avif" alt="">
+                                            <p>수납 가구</p>
+                                        </a>
+                                    </li>
+                                    <li> <a href=""><img src="./images/m04.avif" alt="">
+                                            <p>책상/의자</p>
+                                        </a>
+                                    </li>
+                                    <li> <a href=""><img src="./images/m05.avif" alt="">
+                                            <p>식탁/의자</p>
+                                        </a>
+                                    </li>
+                                    <li> <a href=""><img src="./images/m06.avif" alt="">
+                                            <p>야외용품</p>
+                                        </a>
+                                    </li>
+                                    <li> <a href=""><img src="./images/m07.avif" alt="">
+                                            <p>화분/식물</p>
+                                        </a>
+                                    </li>
+                                    <li> <a href=""><img src="./images/m08.avif" alt="">
+                                            <p>홈데코/장식품</p>
+                                        </a>
+                                    </li>
+                                    <li> <a href=""><img src="./images/m09.webp" alt="">
+                                            <p>텍스타일</p>
+                                        </a>
+                                    </li>
+                                    <li> <a href=""><img src="./images/m11.webp" alt="">
+                                            <p>조명</p>
+                                        </a>
+                                    </li>
+                                    <li> <a href=""><img src="./images/m12.avif" alt="">
+                                            <p>홈스마트</p>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <button>
+                            <a href=""><img class="gnbimg" src="./images/icon_home.svg" alt="">공간별 쇼핑하기</a>
+                            <img src="./images/chevron-down.svg" alt="">
+                        </button>
+                        <div class="sub">
+                            <div class="sub_wrap wrap">
+                                <ul>
+                                    <li><a href="">거실</a></li>
+                                    <li><a href="">주방</a></li>
+                                    <li><a href="">침실</a></li>
+                                    <li><a href="">욕실</a></li>
+                                    <li><a href="">아이방</a></li>
+                                    <li><a href="">서재/사무공간</a></li>
+                                    <li><a href="">베란다/발코니</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <button>
+                            <a href="">특별한 가격</a>
+                            <img src="./images/chevron-down.svg" alt="">
+                        </button>
+                        <div class="sub">
+                            <div class="sub_wrap wrap">
+                                <ul>
+                                    <li><a href=""><strong>특별한 가격에서 모두 보기</strong></a></li>
+                                    <li><a href="">더 낮은 새로운 가격</a></li>
+                                    <li><a href="">이달의 IKEA Family 특별가</a></li>
+                                    <li><a href="">가장 낮은 가격</a></li>
+                                    <li><a href="">리퍼브 제품 특가</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <button>
+                            <a href="">새로운 소식</a>
+                            <img src="./images/chevron-down.svg" alt="">
+                        </button>
+                        <div class="sub">
+                            <div class="sub_wrap wrap">
+                                <ul style="display: flex; flex-direction: column;">
+                                    <li><a href=""><strong>새로운 소식에서 모두 보기</strong></a></li>
+                                    <li><a href="">[브랜드 캠페인] 집에서 시도하세요</a></li>
+                                    <li><a href="">세일 & 프로모션</a></li>
+                                    <li><a href="">매장 소식</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <button>
+                            <a href="">아이디어</a>
+                            <img src="./images/chevron-down.svg" alt="">
+                        </button>
+                        <div class="sub">
+                            <div class="sub_wrap wrap">
+                                <ul class="sub_wrap_ul">
+                                    <li><a href=""><strong>아이디어에서 모두 보기</strong></a></li>
+                                    <li><a href="">지속가능한 생활</a></li>
+                                    <li><a href="">더 나은 일상을 위한 수납</a></li>
+                                    <li><a href="">가나만의 리추얼</a></li>
+                                    <li><a href="">이웃집 집들이</a></li>
+                                    <li><a href="">주제별 홈퍼니싱 아이디어</a></li>
+                                    <li><a href="">공간별 홈퍼니싱 아이디어</a></li>
+                                    <li><a href="">센스있는 선물 아이디어</a></li>
+                                    <li><a href="">홈퍼니싱 스타일</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <button>
+                            <a href="">더 보기</a>
+                            <img src="./images/chevron-down.svg" alt="">
+                        </button>
+
+                        <div class="sub">
+                            <div class="sub_wrap wrap">
+                                <ul class="sub_wrap_ul">
+                                    <li><a href="">매장안내</a></li>
+                                    <li><a href="">이케아 푸드</a></li>
+                                    <li><a href="">쉽고 편한, 헤이 전화 주문</a></li>
+                                    <li><a href="">IKEA Live</a></li>
+                                    <li><a href="">IKEA Family 멤버십</a></li>
+                                    <li><a href="">KEA for Business</a></li>
+                                    <li><a href="">고객 서비스</a></li>
+                                    <li><a href="">배송조회</a></li>
+                                    <li><a href="">내 프로필</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+        <div class="hd_search_mobile">
+            <div class="search_box">
+                <form action="" method="" class="form">
+                    <input class="search_txt" type="text" placeholder="검색어를 입력해 주세요">
+                    <button class="search_btn" type="submit"><img src="./images/icon_search.svg" alt=""></button>
+                </form>
+            </div>
+        </div>
+    </header>
+
+
+
+
+
+    <main id="content">
+        <section class="main_visual default">
+            <div class="itm itm01">
+                <div class="left">
+                    <figure>
+                        <video src="./images/ikea.mp4" muted autoplay loop playsinline></video>
+                    </figure>
+                </div>
+                <div class="right">
+                    <div class="txt">
+
+                        <strong>내 삶에 딱 맞는 시스템 옷장, PAX 팍스 15% OFF 혜택이 곧 종료됩니다!</strong>
+
+                        <p>단 10일의 기회! 80만 원 이상 PAX 팍스 옷장 및 수납 인서트, 옷장 조명 등 시스템 솔루션 구매 시 15% 할인 혜택을 드립니다. 지금 나에게 딱 맞는 시스템
+                            옷장을 할인된 가격으로 만나보세요.
+                        </p>
+                        <ul>
+                            <li><em>기간: 2025년 5월 20일 - 5월 29일</em></li>
+                            <li><em>대상: IKEA Family & IKEA Business Network 멤버</em></li>
+                        </ul>
+                    </div>
+                    <div class="btn_wrap">
+                        <a href="" class="default_btn">PAX 팍스 옷장 할인받으러 가기 🛒</a>
+                        <a href="" class="default_btn2">PAX 할인 🛒</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <section class="main_recommend default" data-aos="fade-up" data-aos-duration="1000">
+            <div class="title">
+                <h2>이런 테마 어때요?</h2>
+            </div>
+            <div class="slide_wrap inner">
+                <div class="swiper main_reco_slide">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide itm">
+                            <a href="">
+                                <figure>
+                                    <img src="./images/reco01.avif" alt="">
+                                    <strong>신제품</strong>
+                                </figure>
+                            </a>
+                        </div>
+                        <div class="swiper-slide itm">
+                            <a href="">
+                                <figure>
+                                    <img src="./images/reco02.webp" alt="">
+                                    <strong>더 낮은 새로운 가격</strong>
+                                </figure>
+                            </a>
+                        </div>
+                        <div class="swiper-slide itm">
+                            <a href="">
+                                <figure>
+                                    <img src="./images/reco03.avif" alt="">
+                                    <strong>베스트셀러</strong>
+                                </figure>
+                            </a>
+                        </div>
+                        <div class="swiper-slide itm">
+                            <a href="">
+                                <figure>
+                                    <img src="./images/reco04.webp" alt="">
+                                    <strong>가장 낮은 가격</strong>
+                                </figure>
+                            </a>
+                        </div>
+                        <div class="swiper-slide itm">
+                            <a href="">
+                                <figure>
+                                    <img src="./images/reco05.avif" alt="">
+                                    <strong>5천원 미만 추천 제품</strong>
+                                </figure>
+                            </a>
+                        </div>
+                        <div class="swiper-slide itm">
+                            <a href="">
+                                <figure>
+                                    <img src="./images/reco06.avif" alt="">
+                                    <strong>지속가능한 소재 제품</strong>
+                                </figure>
+                            </a>
+                        </div>
+                        <div class="swiper-slide itm">
+                            <a href="">
+                                <figure>
+                                    <img src="./images/reco07.webp" alt="">
+                                    <strong>신제품</strong>
+                                </figure>
+                            </a>
+                        </div>
+                        <div class="swiper-slide itm">
+                            <a href="">
+                                <figure>
+                                    <img src="./images/reco08.avif" alt="">
+                                    <strong>한정판</strong>
+                                </figure>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+        </section>
+
+        <section class="main_event default" data-aos="fade-up" data-aos-duration="1000">
+
+            <div class="inner">
+                <div class="fix">
+                    <div class="title">
+                        <h2>이 달의 IKEA Family 특별가</h2>
+                        <p>IKEA Family 멤버만을 위한 이 달의 특별가를 소개합니다!<br> 한정 기간 동안 침실, 수납, 홈액세서리 제품을 10% 할인된 가격으로 만나보세요.</p>
+                    </div>
+                    <img src="./images/event00.avif" alt="">
+                </div>
+
+                <div class="scroll ">
+                    <div class="img_set">
+                        <a href="" class="setname">
+                            <strong>이 달의 모든 할인 제품 보기</strong>
+                            <img src="./images/icon_arrow-right.svg" alt="">
+                        </a>
+                        <a href=""><img src="./images/event01.avif" alt=""></a>
+                        <a href=""><img src="./images/event02.avif" alt=""></a>
+                        <a href=""><img src="./images/event03.webp" alt=""></a>
+                        <a href=""><img src="./images/event04.avif" alt=""></a>
+                        <a href=""><img src="./images/event05.avif" alt=""></a>
+                        <a href=""><img src="./images/event06.avif" alt=""></a>
+                        <a href=""><img src="./images/event07.avif" alt=""></a>
+                        <a href=""> <img src="./images/event08.webp" alt=""></a>
+                        <a href=""> <img src="./images/event01.avif" alt=""></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="main_event_mobile default " data-aos="fade-up" data-aos-duration="1000">
+            <div class="inner">
+                <div class="fix">
+                    <div class="title">
+                        <h2>이 달의 IKEA Family 특별가</h2>
+                        <p>IKEA Family 멤버만을 위한 이 달의 특별가를 소개합니다! 한정 기간 동안 침실, 수납, 홈액세서리 제품을 10% 할인된 가격으로 만나보세요.</p>
+                    </div>
+                </div>
+
+                <div class="scroll">
+                    <a href="" class="setname">
+                        <strong>이 달의 모든 할인 제품 보기</strong>
+                        <img src="./images/icon_arrow-right.svg" alt="">
+                    </a>
+                    <div class="swiper main_event_slide">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide itm">
+                                <a href=""><img src="./images/event01.avif" alt=""></a>
+                            </div>
+                            <div class="swiper-slide itm">
+                                <a href=""><img src="./images/event02.avif" alt=""></a>
+                            </div>
+                            <div class="swiper-slide itm">
+                                <a href=""><img src="./images/event03.webp" alt=""></a>
+                            </div>
+                            <div class="swiper-slide itm">
+                                <a href=""><img src="./images/event04.avif" alt=""></a>
+                            </div>
+                            <div class="swiper-slide itm">
+                                <a href=""><img src="./images/event05.avif" alt=""></a>
+                            </div>
+                            <div class="swiper-slide itm">
+                                <a href=""><img src="./images/event06.avif" alt=""></a>
+                            </div>
+                            <div class="swiper-slide itm">
+                                <a href=""><img src="./images/event07.avif" alt=""></a>
+                            </div>
+                            <div class="swiper-slide itm">
+                                <a href=""> <img src="./images/event08.webp" alt=""></a>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+
+                <div class="scrollbar"></div>
+        </section>
+        <section class="main_solution default" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200">
+            <div class="title">
+                <h2 style="color: #fff;">다양한 IKEA 솔루션 & 서비스</h2>
+            </div>
+            <div class="solution_wrap pc">
+                <div class="inner top">
+                    <a href="" class="itm_fr">
+                        <strong>집에서 실천하는 6가지<br> 지속가능 아이디어</strong>
+                    </a>
+                    <a href="" class="itm">
+                        <img src="./images/solution00.avif" alt="">
+                        <strong>물 아끼기</strong>
+                    </a>
+                    <a href="" class="itm">
+                        <img src="./images/solution01.avif" alt="">
+                        <strong>에너지 아끼기</strong>
+                    </a>
+                    <a href="" class="itm">
+                        <img src="./images/solution02.avif" alt="">
+                        <strong>쓰레기 줄이기</strong>
+                    </a>
+                    <a href="" class="itm">
+                        <img src="./images/solution03.avif" alt="">
+                        <strong>지속가능한 먹거리</strong>
+                    </a>
+                    <a href="" class="itm">
+                        <img src="./images/solution04.avif" alt="">
+                        <strong>물 아끼기</strong>
+                    </a>
+                </div>
+                <div class="inner bottom">
+                    <a href="" class="itm">
+                        <img src="./images/event09.avif" alt="">
+                        <strong>배송 서비스</strong>
+                    </a>
+                    <a href="" class="itm">
+                        <img src="./images/event10.avif" alt="">
+                        <strong>클릭 앤 콜렉트 주유소<br> 픽업 서비스</strong>
+                    </a>
+                    <a href="" class="itm">
+                        <img src="./images/event11.avif" alt="">
+                        <strong>조립 서비스</strong>
+                    </a>
+                    <a href="" class="itm">
+                        <img src="./images/event12.avif" alt="">
+                        <strong>설치 서비스</strong>
+                    </a>
+                    <a href="" class="itm">
+                        <img src="./images/event13.avif" alt="">
+                        <strong>주방 서비스</strong>
+                    </a>
+                    <a href="" class="itm_la">
+                        <strong>모든 서비스 보기</strong>
+                    </a>
+                </div>
+            </div>
+
+            <div class="solution_wrap_mobile">
+                <div class="inner top">
+                    <a href="" class="itm_fr">
+                        <strong>지속가능 솔루션 5가지</strong>
+                    </a>
+                    <a href="" class="itm">
+                        <img src="./images/solution00.avif" alt="">
+                        <strong>물 아끼기</strong>
+                    </a>
+                    <a href="" class="itm">
+                        <img src="./images/solution01.avif" alt="">
+                        <strong>에너지 아끼기</strong>
+                    </a>
+                    <a href="" class="itm">
+                        <img src="./images/solution02.avif" alt="">
+                        <strong>쓰레기 줄이기</strong>
+                    </a>
+                    <a href="" class="itm">
+                        <img src="./images/solution03.avif" alt="">
+                        <strong>그린식탁</strong>
+                    </a>
+                    <a href="" class="itm">
+                        <img src="./images/solution04.avif" alt="">
+                        <strong>물 아끼기</strong>
+                    </a>
+                </div>
+
+                <div class="inner bottom">
+                    <a href="" class="itm_la">
+                        <strong>모든 서비스 보기</strong>
+                    </a>
+                    <a href="" class="itm">
+                        <img src="./images/event09.avif" alt="">
+                        <strong>배송 서비스</strong>
+                    </a>
+                    <a href="" class="itm">
+                        <img src="./images/event10.avif" alt="">
+                        <strong>클릭&콜렉트</strong>
+                    </a>
+                    <a href="" class="itm">
+                        <img src="./images/event11.avif" alt="">
+                        <strong>조립 서비스</strong>
+                    </a>
+                    <a href="" class="itm">
+                        <img src="./images/event12.avif" alt="">
+                        <strong>설치 서비스</strong>
+                    </a>
+                    <a href="" class="itm">
+                        <img src="./images/event13.avif" alt="">
+                        <strong>주방 서비스</strong>
+                    </a>
+
+                </div>
+            </div>
+
+
+        </section>
+    </main>
+
+
+
+    <footer id="footer">
+        <div class="footer_wrap">
+            <div class="footer_top">
+                <div class="left">
+                    <div class="lt">
+                        <strong>IKEA Family</strong>
+                        <p>지금 IKEA Family에 무료로 가입하고<br>
+                            다양한 멤버 전용 혜택을 누리세요.</p>
+                        <a href=""><em>자세히보기</em></a>
+                        <div class="fb">
+                            <div class="footer_left_btn">
+                                <a href="">IKEA Family 가입하기</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="lb">
+                        <strong>IKEA Business Network</strong>
+                        <p>여러분의 더 나은 비즈니스 환경을 위한<br>
+                            다양한 혜택들을 받으세요.</p>
+                        <a href=""><em>자세히보기</em></a>
+                        <div class="fb">
+                            <div class="footer_left_btn">
+                                <a href="">IKEA Business Network 가입하기</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="right">
+                    <nav>
+                        <strong>고객문의</strong>
+                        <ul>
+                            <li><a href="">고객 서비스</a></li>
+                            <li><a href="">자주 묻는 질문</a></li>
+                            <li><a href="">고객지원센터</a></li>
+                            <li><a href="">배송조회</a></li>
+                            <li><a href="">교환환불</a></li>
+                            <li><a href="">품질보증</a></li>
+                            <li><a href="">제품리콜</a></li>
+                            <li><a href="">피드백</a></li>
+                            <li><a href="">부품 신청</a></li>
+                        </ul>
+                    </nav>
+                    <nav>
+                        <strong>쇼핑하기</strong>
+                        <ul>
+                            <li><a href="">쇼핑하기</a></li>
+                            <li><a href="">전화 주문</a></li>
+                            <li><a href="">IKEA for Business</a></li>
+                            <li><a href="">셀프 플래닝</a></li>
+                            <li><a href="">이케아 모바일 앱</a></li>
+                            <li><a href="">제품 사용 팁 / 가이드</a></li>
+                            <li><a href="">브로슈어 / 제품 구매 안내</a></li>
+                            <li><a href="">결제 옵션</a></li>
+                            <li><a href="">기프트 카드</a></li>
+                        </ul>
+                    </nav>
+                    <nav>
+                        <strong>서비스</strong>
+                        <ul>
+                            <li><a href="">이케아 서비스</a></li>
+                            <li><a href="">배송 서비스</a></li>
+                            <li><a href="">조립 서비스</a></li>
+                            <li><a href="">설치 서비스</a></li>
+                            <li><a href="">주방 서비스</a></li>
+                            <li><a href="">구매 상담 서비스</a></li>
+                            <li><a href="">공간 스타일링 서비스</a></li>
+                            <li><a href="">바이백 서비스</a></li>
+                        </ul>
+                    </nav>
+                    <nav>
+                        <strong>이케아 이야기</strong>
+                        <ul>
+                            <li><a href="">브랜드 소개</a></li>
+                            <li><a href="">집에서의 생활</a></li>
+                            <li><a href="">지속가능한 생활</a></li>
+                            <li><a href="">뉴스룸</a></li>
+                            <li><a href="">채용정보</a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+            <div class="footer_bottom">
+                <div class="bottom_ir">
+                    <address>
+                        &copy;Inter IKEA Systems B.V 1999-2025
+                    </address>
+                    <ul>
+                        <li class="pv"><a href="">개인정보처리방침</a> </li>
+                        <li><a href="">쿠키 정책</a> </li>
+                        <li><a href="">쿠키 설정</a> </li>
+                        <li><a href="">웹사이트 이용약관</a> </li>
+                        <li><a href="">Responsible disclosure</a> </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer_b">
+                <p>
+                    <span>이케아코리아 유한회사</span>
+                    <span>주소: (우) 14352 경기도 광명시 일직로 17, 1층(일직동) 이케아 광명점</span>
+                    <span>사업자 등록번호: 106-86-82871 사업자정보확인</span>
+                    <span>대표자: 이사벨 푸치 팔렘</span>
+                    <span>통신판매업 신고: 2018-경기광명-0209</span>
+                    <span>고객지원센터: 1670-4532</span>
+                </p>
+            </div>
+        </div>
+    </footer>
+
+    <footer id="footer_mobile">
+        <div class="footer_wrap">
+            <div class="footer_top">
+                <div class="left">
+                    <div class="lt">
+                        <strong>IKEA Family</strong>
+                        <p>지금 IKEA Family에 무료로 가입하고<br>
+                            다양한 멤버 전용 혜택을 누리세요.</p>
+                        <a href=""><em>자세히보기</em></a>
+                        <div class="fb">
+                            <div class="footer_left_btn">
+                                <a href="">IKEA Family 가입하기</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="lb">
+                        <strong>IKEA Business Network</strong>
+                        <p>여러분의 더 나은 비즈니스 환경을 위한<br>
+                            다양한 혜택들을 받으세요.</p>
+                        <a href=""><em>자세히보기</em></a>
+                        <div class="fb">
+                            <div class="footer_left_btn">
+                                <a href="">IKEA Business Network 가입하기</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <ul class="right">
+                    <li>
+                        <div class="strong">
+                            <button>
+                                <span>고객문의</span>
+                                <img src="./images/chevron-down.svg" alt="">
+                            </button>
+                        </div>
+                        <ul>
+                            <li><a href="">고객 서비스</a></li>
+                            <li><a href="">자주 묻는 질문</a></li>
+                            <li><a href="">고객지원센터</a></li>
+                            <li><a href="">배송조회</a></li>
+                            <li><a href="">교환환불</a></li>
+                            <li><a href="">품질보증</a></li>
+                            <li><a href="">제품리콜</a></li>
+                            <li><a href="">피드백</a></li>
+                            <li><a href="">부품 신청</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <div class="strong">
+                            <button>
+                                <span>쇼핑하기</span>
+                                <img src="./images/chevron-down.svg" alt="">
+                            </button>
+                        </div>
+                        <ul>
+                            <li><a href="">쇼핑하기</a></li>
+                            <li><a href="">전화 주문</a></li>
+                            <li><a href="">IKEA for Business</a></li>
+                            <li><a href="">셀프 플래닝</a></li>
+                            <li><a href="">이케아 모바일 앱</a></li>
+                            <li><a href="">제품 사용 팁 / 가이드</a></li>
+                            <li><a href="">브로슈어 / 제품 구매 안내</a></li>
+                            <li><a href="">결제 옵션</a></li>
+                            <li><a href="">기프트 카드</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <div class="strong">
+                            <button>
+                                <span>서비스</span>
+                                <img src="./images/chevron-down.svg" alt="">
+                            </button>
+                        </div>
+                        <ul>
+                            <li><a href="">이케아 서비스</a></li>
+                            <li><a href="">배송 서비스</a></li>
+                            <li><a href="">조립 서비스</a></li>
+                            <li><a href="">설치 서비스</a></li>
+                            <li><a href="">주방 서비스</a></li>
+                            <li><a href="">구매 상담 서비스</a></li>
+                            <li><a href="">공간 스타일링 서비스</a></li>
+                            <li><a href="">바이백 서비스</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <div class="strong">
+                            <button>
+                                <span>이케아 이야기</span>
+                                <img src="./images/chevron-down.svg" alt="">
+                            </button>
+                        </div>
+                        <ul>
+                            <li><a href="">브랜드 소개</a></li>
+                            <li><a href="">집에서의 생활</a></li>
+                            <li><a href="">지속가능한 생활</a></li>
+                            <li><a href="">뉴스룸</a></li>
+                            <li><a href="">채용정보</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+            <div class="footer_bottom">
+                <div class="bottom_ir">
+                    <address>
+                        &copy;Inter IKEA Systems B.V 1999-2025
+                    </address>
+                    <ul>
+                        <li class="pv"><a href="">개인정보처리방침</a> </li>
+                        <li><a href="">쿠키 정책</a> </li>
+                        <li><a href="">쿠키 설정</a> </li>
+                        <li><a href="">웹사이트 이용약관</a> </li>
+                        <li><a href="">Responsible disclosure</a> </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer_b">
+                <p>
+                    <span>이케아코리아 유한회사</span>
+                    <span>주소: (우) 14352 경기도 광명시 일직로 17, 1층(일직동) 이케아 광명점</span>
+                    <span>사업자 등록번호: 106-86-82871 사업자정보확인</span>
+                    <span>대표자: 이사벨 푸치 팔렘</span>
+                    <span>통신판매업 신고: 2018-경기광명-0209</span>
+                    <span>고객지원센터: 1670-4532</span>
+                </p>
+            </div>
+        </div>
+    </footer>
+
+
+
+
+</body>
+
+</html>

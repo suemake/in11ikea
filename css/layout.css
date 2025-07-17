@@ -1,0 +1,73 @@
+.inner {
+    max-width: 1410px;
+    margin: 0 auto;
+}
+
+.default {
+    padding: 80px 0;
+
+}
+
+.default .title {
+    max-width: 1410px;
+    margin: 0 auto;
+    margin-bottom: 40px;
+}
+
+.default .title h2 {
+    font-size: 32px;
+    font-weight: 700;
+
+}
+
+@media (max-width:1024px) {
+
+    .default .title {
+        max-width: 1410px;
+        margin: 0 auto;
+        margin-bottom: 40px;
+        /* r */
+        padding: 0 20px;
+    }
+
+    .default .title h2 {
+        font-size: 32px;
+        font-weight: 700;
+        /* r */
+        font-size: 24px;
+        font-weight: 700;
+    }
+}
+
+
+@media (max-width:430px) {
+
+    .default .title {
+        max-width: 1410px;
+        margin: 0 auto;
+        margin-bottom: 40px;
+        /* r */
+        padding: 0 20px;
+    }
+
+    .default .title h2 {
+        font-size: 32px;
+        font-weight: 700;
+        /* r */
+        font-size: 24px;
+        font-weight: 700;
+    }
+}
+
+.flx {
+    display: flex;
+}
+
+.flx>* {
+    flex: 1;
+}
+
+.flx img {
+    width: 100%;
+
+}
